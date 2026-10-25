@@ -1,0 +1,23 @@
+# Ghost Data Still Exists — Python Dependencies
+# This project uses ONLY the Python standard library.
+# No pip install required — Python 3.8+ is sufficient.
+
+# Standard library modules used (for reference):
+#   csv         — reading/writing CSV files
+#   json        — parsing/serializing JSON
+#   re          — regex for log line parsing
+#   sqlite3     — in-memory SQL execution for .sql evidence files
+#   pathlib     — cross-platform file path handling
+#   datetime    — ISO-8601 timestamp parsing and comparison
+#   collections — Counter, defaultdict helpers
+#   sys         — sys.exit, sys.path
+
+# ------------------------------------------------------------
+# If you extend the solution with LLM or PDF support, add:
+# ------------------------------------------------------------
+# openai>=1.0.0
+# anthropic>=0.25.0
+# google-generativeai>=0.5.0
+# pdfplumber>=0.10.0        # PDF text extraction
+# pypdf2>=3.0.0             # Alternative PDF reader
+# python-dotenv>=1.0.0      # Load .env variables automatically
